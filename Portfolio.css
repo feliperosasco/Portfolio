@@ -144,6 +144,70 @@ section {
     padding: 40px;
 }
 
+#contacto-formulario {
+    padding: 50px 20px;
+    background-color: #f8f8f8; /* Un fondo suave para diferenciar la sección */
+    text-align: center;
+}
+
+#contacto-formulario h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+#contactForm {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block; /* Cada label en su propia línea */
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box; /* Incluye padding y borde en el ancho total */
+    font-family: 'Arial', sans-serif; /* Consistencia de fuente */
+}
+
+.form-group textarea {
+    resize: vertical; /* Permite redimensionar solo verticalmente */
+}
+
+#contactForm button {
+    background-color: #5cb85c; /* Un verde amigable para el botón */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+#contactForm button:hover {
+    background-color: #4cae4c; /* Oscurece el botón al pasar el cursor */
+}
+
 .lista-contacto {
     display: flex;
     justify-content: center;
@@ -165,4 +229,5 @@ footer {
     display: flex;
     justify-content: center;
     background-color: #4CAF50;
+
 }
